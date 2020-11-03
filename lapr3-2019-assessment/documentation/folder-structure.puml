@@ -1,0 +1,86 @@
+@startuml
+skinparam handwritten true
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+folder "Development Folder" as development{
+    folder lapr3-2019-gXXX{
+
+        folder third-parties{
+            artifact ride-sharing-assessment-interfaces-1.0.jar as interfaces.jar{
+                interface Serviceable
+            }
+        }
+
+        folder src/main/java/lapr/assessment{
+            class Facade
+            Facade ..|> Serviceable
+
+        }
+        note bottom of src/main/java/lapr/assessment
+            Students should create
+            this package and class
+            Facade.
+        end note
+
+        artifact pom.xml{
+note bottom of pom.xml
+Students should place the following code on their pom.xml.
+Please pay attention to the version number,
+it must equal the number on the jar file.
+
+<dependency>
+    <groupId>lapr3</groupId>
+    <artifactId>ride-sharing-assessment-interfaces</artifactId>
+    <version>1.0</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/third-parties/
+    ride-sharing-assessment-interfaces-1.0.jar</systemPath>
+</dependency>
+
+end note
+
+        }
+
+    }
+
+    folder lapr3-2019-assessment{
+        folder src/test/resources{
+            artifact application.properties {
+            }
+        }
+    }
+}
+
+note bottom of application.properties
+    To run assessment tests,
+    students should change the
+    following property,
+    according to their team number:
+    target.project.name=lapr3-2019-g000
+    target.project.groupId=lapr3
+    target.project.artifactId=ride-sharing
+    target.project.version=1.0-SNAPSHOT
+    target.project.relative.path=/../
+
+    By running:
+    "mvn -Dtest=*SetupTest,Scenario*Test test"
+    on this project, it will execute the tests.
+end note
+
+note top of development
+Both projects should be located
+in the same folder
+end note
+
+
+        note bottom of interfaces.jar
+            Students should download
+            the interfaces jar
+            and place it under
+            the third-parties folder.
+        end note
+
+@enduml

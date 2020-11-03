@@ -1,0 +1,5 @@
+#lines starting with # should be ignored
+#Column description
+#latitude, longitude are given in decimal degrees e.g. 41.152712, -8.609297
+#distance in meters to location should be given in m, rounded to the unit e.g 125
+latitude;longitude;distance in meters

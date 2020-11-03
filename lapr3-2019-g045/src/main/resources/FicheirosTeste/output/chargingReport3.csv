@@ -1,0 +1,5 @@
+escooter description;type;actual battery capacity;time to finish charge in seconds
+scooterEb;OFF-ROAD;0;16364
+scooterAb;CITY;50;4091
+scooterF;OFF-ROAD;50;4091
+ScooterDummy;OFF-ROAD;30;2864

@@ -1,0 +1,9 @@
+#lines starting with # should be ignored
+#Column description
+#latitude, longitude are given in decimal degrees e.g. 41.152712, -8.609297, 41.145883, -8.610680
+#elevation is given in metres (m) with no decimal places e.g. 121. When not given, consider 0
+#poi description is optional and represents the description for the point of interest e.g. "Hotel Well"
+latitude;longitude;elevation;poi description
+41.1574483;-8.6148803;60;Igreja da Lapa
+41.1579482;-8.6313297;30;Rotunda da Boa Vista
+

@@ -1,0 +1,6 @@
+#lines starting with # should be ignored
+#Column description
+#escooter description - a descriptive reference for the escooter e.g. ePT050
+#type can be "city" or "off-road".
+#actual battery capacity - the percentage with no decimal places of the battery capacity e.g. 75 for a battery with 0.75kWh charge. For non electrical vehicles, it should be 0.
+escooter description;type;actual battery capacity

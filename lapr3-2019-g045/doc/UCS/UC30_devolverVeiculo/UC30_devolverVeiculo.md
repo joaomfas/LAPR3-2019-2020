@@ -1,0 +1,29 @@
+# **UC30 Devolver veiculo
+
+JIRA Issue: https://jira.dei.isep.ipp.pt:8443/browse/LPR19G45-47
+
+## Análise
+
+### Descrição breve
+
+O utilizador pretende devolver veiculo. O sistema solicita identificacao do parque e do veiculo. 
+O utilizador fornece as informações necessárias. O sistema valida a informação e pede ao utilizador que confirme.
+O utilizador confirma. O sistema informa do sucesso da operação.
+
+*Ator Principal*
+
+utilizador Registado
+
+### System Sequence Diagram (SSD)
+
+![UC30_SSD_devolverVeiculo.jpg](UC30_SSD_devolverVeiculo.jpg)
+
+## Design
+
+### Sequence Diagram
+
+![UC30_SD_devolverVeiculo.jpg](UC30_SD_devolverVeiculo.jpg)
+
+### Class Diagram (CD)
+
+![UC30_CD_devolverVeiculo.jpg](UC30_CD_devolverVeiculo.jpg)

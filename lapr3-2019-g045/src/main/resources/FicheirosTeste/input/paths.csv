@@ -1,0 +1,28 @@
+#lines starting with # should be ignored
+#Column description
+#latitudeA, longitudeA, latitudeB, longitudeB are given in decimal degrees e.g. 41.152712, -8.609297, 41.145883, -8.610680
+#kinetic coefficient is given with 3 decimal places e.g. 0.002. When not given, consider 0
+#wind direction - the wind direction in degrees e.g. 220. When not given, consider 0
+#wind speed - the wind speed in m/s with one decimal place e.g. 1. When not given, consider 0
+##boa vista  -> castelo
+##castelo    -> foz
+##foz        -> ribeira
+##lapa       -> trindade
+##ribeira    -> boa vista
+##ribeira    -> foz
+##ribeira    -> trindade
+##trindade   -> boa vista
+##trindade   -> lapa
+##trindade   -> ribeira
+latitudeA;longitudeA;latitudeB;longitudeB;kinetic coefficient;wind direction;wind speed
+41.1579482;-8.6313297;41.1687500;-8.6899500;0.004;30;4
+41.1687500;-8.6899500;41.1518104;-8.6833909;0.004;30;4
+41.1518104;-8.6833909;41.1406300;-8.6111800;0.004;30;4
+41.1574483;-8.6148803;41.1522700;-8.6092900;0.004;30;4
+41.1406300;-8.6111800;41.1579482;-8.6313297;0.004;30;4
+41.1406300;-8.6111800;41.1518104;-8.6833909;0.004;30;4
+41.1406300;-8.6111800;41.1522700;-8.6092900;0.004;30;4
+41.1522700;-8.6092900;41.1579482;-8.6313297;0.004;30;4
+41.1522700;-8.6092900;41.1574483;-8.6148803;0.004;30;4
+41.1522700;-8.6092900;41.1406300;-8.6111800;0.004;30;4
+

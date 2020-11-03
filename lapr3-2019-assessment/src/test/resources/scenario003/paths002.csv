@@ -1,0 +1,17 @@
+#lines starting with # should be ignored
+#Column description
+#latitudeA, longitudeA, latitudeB, longitudeB are given in decimal degrees e.g. 41.152712, -8.609297, 41.145883, -8.610680
+#kinetic coefficient is given with 3 decimal places e.g. 0.002. When not given, consider 0
+#wind direction - the wind direction in degrees e.g. 220. When not given, consider 0
+#wind speed - the wind speed in m/s with one decimal place e.g. 1. When not given, consider 0
+latitudeA;longitudeA;latitudeB;longitudeB;kinetic coefficient;wind direction;wind speed
+41.15227;-8.60929;41.14063;-8.61118;0.0015;95;2.8
+41.14063;-8.61118;41.15227;-8.60929;0.0015;45;2.3
+41.15227;-8.60929;41.14582;-8.61398;0.0015;50;3.5
+41.14582;-8.61398;41.15227;-8.60929;0.0015;60;2.2
+41.14582;-8.61398;41.14871;-8.60746;0.0015;80;2.1
+41.14871;-8.60746;41.14582;-8.61398;0.0015;70;2.2
+41.14582;-8.61398;41.14723;-8.60657;0.0015;24;2.2
+41.14871;-8.60746;41.14063;-8.61118;0.0015;22;3.2
+41.14063;-8.61118;41.14871;-8.60746;0.0015;33;2.4
+41.14063;-8.61118;41.14723;-8.60657;0.0015;24;2.2

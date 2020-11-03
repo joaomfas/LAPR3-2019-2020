@@ -1,0 +1,47 @@
+@startuml
+' http://plantuml.com/skinparam.html
+skinparam componentStyle uml2
+
+skinparam handwritten true
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName FG Virgil
+skinparam shadowing false
+
+'[lapr3-2019-assessment] --> [lapr3-2019-assessment-interfaces]
+
+component [lapr3-2019-assessment-interfaces] as interfaces
+
+interface "Serviceable" as service
+
+interfaces - service : provides
+
+[lapr3-2019-assessment] --> service : uses
+
+[lapr3-2019-gXXX] -> service : uses
+
+[lapr3-2019-gXXX] -> interfaces: dependsOn
+
+[lapr3-2019-assessment] -> [lapr3-2019-gXXX] : dependsOn
+[lapr3-2019-assessment] -> interfaces : dependsOn
+
+note top of interfaces
+Provides the interfaces
+that the assessment
+and team's project
+must use
+end note
+
+note top of [lapr3-2019-gXXX]
+Team projects must include
+lapr3-2019-assessment-interfaces
+jar on the dependencies
+end note
+
+note top of [lapr3-2019-assessment]
+This project should be
+located on the same folder
+level as your team's project
+end note
+
+@enduml

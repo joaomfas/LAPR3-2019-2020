@@ -1,0 +1,5 @@
+#lines starting with # should be ignored
+#Column description
+#bike description - a descriptive reference for the bicycle e.g. PT050
+#wheel size - bicycle wheel size in inches e.g. 16" 26" 29"
+bicycle description;wheel size

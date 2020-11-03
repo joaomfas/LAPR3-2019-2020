@@ -1,0 +1,16 @@
+#lines starting with # should be ignored
+#Column description
+#bike description - a descriptive reference for the bicycle e.g. PT050
+#weight - the bicycle mass in Kg with no decimal places e.g. 12
+#park latitude, park longitude - when a bike is parked, the park latitude and longitude are given in decimal degrees e.g. 41.152712, -8.609297
+#aerodynamic coefficient - bicycle aerodynamic coefficient with 2 decimal places e.g. 1.10
+#frontal area - bicycle frontal area in m^2 with 1 decimal place e.g. 0.3
+#wheel size - bicycle wheel size in inches e.g. 16" 26" 29"
+bicycle description;weight;park latitude;park longitude;aerodynamic coefficient;frontal area;wheel size
+bikeA;50;41.15227;-8.60929;1.5;10;18
+bikeB;51;41.15227;-8.60929;1.5;20;16
+bikeC;52;41.14063;-8.61118;1.5;30;18
+bikeD;53;41.14063;-8.61118;1.5;40;14
+bikeE;54;41.16875;-8.68995;1.5;50;16
+bikeF;54;41.16875;-8.68995;1.5;40;18
+BikeDummy;54;41.16875;-8.68995;1.5;40;18

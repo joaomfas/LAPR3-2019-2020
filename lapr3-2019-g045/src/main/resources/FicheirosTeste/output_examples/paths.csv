@@ -1,0 +1,21 @@
+#lines starting with # should be ignored
+#one file can have multiple paths
+#Every path should be numbered, for first path use three digits e.g. 001, where NUMBER should be replaced by 001
+#The total distance for each path should be given in m rounded to the unit e.g. 1521, where TOTAL_DISTANCE should be replaced by 1521
+#The total energy for each path should be given in kWh, rounded to two decimal places e.g. 0.37, where TOTAL_ENERGY should be replaced by 0.37
+#The elevation difference between the first and last point in m, rounded to the unit e.g. -10 or 10, where ELEVATION should be replaced by -10 or 10
+#latitudeA;longitudeA - one line for each point/park on the path
+Path NUMBER
+total_distance:TOTAL_DISTANCE
+total_energy:TOTAL_ENERGY
+elevation:ELEVATION
+latitudeA;longitudeA
+latitudeB;longitudeB
+latitudeT;longitudeT
+Path NUMBER
+total_distance:TOTAL_DISTANCE
+total_energy:TOTAL_ENERGY
+elevation:ELEVATION
+latitudeA;longitudeA
+latitudeC;longitudeC
+latitudeT;longitudeT

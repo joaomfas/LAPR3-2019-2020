@@ -1,0 +1,20 @@
+#lines starting with # should be ignored
+#USERNAME should be replaced by the username
+#PREVIOUS_POINTS should be replaced by the points the user add before this month
+#EARNED_POINTS should be replaced by the points the user earned this month
+#DISCOUNTED_POINTS should be replaced by the points that were converted to euros
+#ACTUAL_POINTS should be replaced by the points the user will have for the next month
+#MONTH_CHARGED_VALUE should be replaced by the total of euros to charge the user for this month
+#List of charges
+#vehicle description - a descriptive reference for the vehicle e.g. PT050 or ePT050
+#vehicle unlock time and vehicle lock time - should be given in miliseconds
+#origin park latitude, origin park longitude, destination park latitude, destination park longitude- when a vehicle is parked, the park latitude and longitude are given in decimal degrees e.g. 41.152712, -8.609297
+#time spent in seconds - total time spent in seconds between vehicle unlock and lock
+#charged value - value charges in euros, rounded to two decimal places e.g. 2.456 is shown as 2.46
+USERNAME
+Previous points:PREVIOUS_POINTS
+Earned points:EARNED_POINTS
+Discounted points:DISCOUNTED_POINTS
+Actual points:ACTUAL_POINTS
+Charged Value:MONTH_CHARGED_VALUE
+vehicle description;vehicle unlock time;vehicle lock time;origin park latitude;origin park longitude;destination park latitude;destination park longitude;total time spent in seconds;charged value

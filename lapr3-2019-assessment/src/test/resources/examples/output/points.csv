@@ -1,0 +1,10 @@
+#lines starting with # should be ignored
+#Sort by vehicle unlock time in ascending order (oldest to newest).
+#Column description
+#vehicle description - a descriptive reference for the vehicle e.g. PT050 or ePT050
+#vehicle unlock time and vehicle lock time - should be given in miliseconds
+#origin park latitude, origin park longitude, destination park latitude, destination park longitude- when a vehicle is parked, the park latitude and longitude are given in decimal degrees e.g. 41.152712, -8.609297
+#origin park elevation, destination park elevation in meters
+#elevation difference - in meters rounded to unit e.g. 10
+#points - number of earned points
+vehicle description;vehicle unlock time;vehicle lock time;origin park latitude;origin park longitude;origin park elevation;destination park latitude;destination park longitude;destination park elevation;elevation difference;points

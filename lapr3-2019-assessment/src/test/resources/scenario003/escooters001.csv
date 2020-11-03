@@ -1,0 +1,24 @@
+#lines starting with # should be ignored
+#Column description
+#escooter description - a descriptive reference for the escooter e.g. ePT050
+#weight - the escooter mass in Kg with no decimal places e.g. 12
+#type can be "city" or "off-road".
+#park latitude, park longitude - when an escooter is parked, the park latitude and longitude are given in decimal degrees e.g. 41.152712, -8.609297
+#max battery capacity - the battery max capacity in kWh e.g. 1
+#actual battery capacity - the percentage with no decimal places of the battery capacity e.g. 75 for a battery with 0.75kWh charge
+#aerodynamic coefficient - escooter aerodynamic coefficient with 2 decimal places e.g. 1.10
+#frontal area - escooter frontal area in m^2 with 1 decimal place e.g. 0.3
+#motor - scooter motor in Wh e.g. 250Wh
+escooter description;weight;type;park latitude;park longitude;max battery capacity;actual battery capacity;aerodynamic coefficient;frontal area;motor
+escooter01;25;city;41.15227;-8.60929;2.5;80;1.05;0.2;250;
+escooter02;25;city;41.15227;-8.60929;2.5;5;1.05;0.2;250;
+escooter03;25;city;41.15227;-8.60929;2.5;25;1.05;0.2;250;
+escooter04;30;off-road;41.15227;-8.60929;2.5;25;1.05;0.3;300;
+escooter05;30;off-road;41.15227;-8.60929;2.5;25;1.05;0.3;300;
+escooter06;30;off-road;41.15227;-8.60929;2.5;25;1.05;0.3;300;
+escooter10;25;city;41.14063;-8.61118;2.5;80;1.05;0.2;250;
+escooter11;25;city;41.14063;-8.61118;2.5;5;1.05;0.2;250;
+escooter12;25;city;41.14063;-8.61118;2.5;25;1.05;0.2;250;
+escooter13;30;off-road;41.14063;-8.61118;2.5;25;1.05;0.3;300;
+escooter14;30;off-road;41.14063;-8.61118;2.5;25;1.05;0.3;300;
+escooter15;30;off-road;41.14063;-8.61118;2.5;25;1.05;0.3;300;
